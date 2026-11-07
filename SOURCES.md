@@ -105,7 +105,9 @@ DOI: [10.1587/transfun.2025DMP0014](https://doi.org/10.1587/transfun.2025DMP0014
 
 - [Final publisher record and abstract](https://www.jstage.jst.go.jp/article/transfun/E109.A/9/E109.A_2025DMP0014/_article/-char/en)
 
-Checked / 確認: final primary abstract (A). It specifies a parsimonious solution correspondence and coordinate alignment: each target coordinate is constant or an injective image of one source coordinate, together with source hardness hypotheses. The full formal theorem needs a separate review before using it to prove a new result. The “2025” in the DOI is not the final publication year.
+- [Final full text](https://www.jstage.jst.go.jp/article/transfun/E109.A/9/E109.A_2025DMP0014/_pdf/-char/en)
+
+Checked / 確認: final full text (S), Theorem 4, Theorem 6, Corollary 11 and §5.3 Examples A–B. It specifies a parsimonious solution correspondence and coordinate alignment: each target coordinate is constant or an injective image of one source coordinate, together with source hardness hypotheses. The single-source-coordinate alignment, coverage and instance-level constant conditions must be checked in each new application; a parsimonious reduction alone is insufficient. The “2025” in the DOI is not the final publication year.
 
 <a id="p8"></a>
 ## P8 — Forcing and anti-forcing minimum cuts
@@ -201,6 +203,17 @@ DOI: [10.1137/050641594](https://doi.org/10.1137/050641594).
 
 Checked / 確認: Proposition 2.8, Theorems 3.1, 4.1, 7.5 and 8.2 (S). Fixed k differs from input k. US-hardness differs from P_dtt(US) membership. A supplied vertex set does not include supplied color values. The χ≤3 promise is not a degree restriction.
 
+<a id="p16"></a>
+## P16 — NAE unique extension with a prescribed variable partition
+
+Ivan Tadeu Ferreira Antunes Filho.
+*Characterizing Boolean Satisfiability Variants.* M.Eng. thesis, Massachusetts Institute of Technology, 2019; advisor Erik D. Demaine.
+
+- [MIT repository record](https://hdl.handle.net/1721.1/124241)
+- [Advisor-hosted full text](https://erikdemaine.org/theses/ifilho.pdf)
+
+Checked / 確認: §3.10, Theorems 3.10.1–3.10.2, printed pp. 35–36; completeness is also listed in the §2.1 survey table (S). This is ∃X∃!Y with a prescribed partition, not FCP with selectable clue positions. The constant-free construction permits repeated variables in a clause. No planar, monotone or bounded-occurrence restriction is claimed. The theorems state hardness; the table lists completeness, with membership following from the standard existential–universal formulation.
+
 ## Remaining leads / 今後確認する文献
 
 See [Questions](QUESTIONS.md) / [日本語](QUESTIONS.ja.md). Abstract-level entries are useful navigation, but do not substitute for checking the exact hypotheses when applying a theorem.
@@ -211,3 +224,11 @@ Link a result to its source and version, not only a search result. Avoid “all 
 
 結果は検索画面ではなく、文献と参照版に結び付けます。モデル・入力条件・パラメータを省略せず、歴史的結果と現時点の最良結果を区別します。学習用の導出を新規結果として扱いません。
 
+
+## Public-source inclusion policy / 公開出典の収録方針
+
+Include results with a reader-accessible public bibliographic source: a journal/conference paper, preprint, technical report or public slides. Label publication type and whether the statement was checked in full text or only an abstract; public availability is distinct from peer review. A program title alone is a lead, not evidence of an exact theorem.
+
+Exclude private-communication-only and unpublished-draft-only results from the public result catalogue and bibliography. Use such material to locate public sources. Do not expose author names or statements from private material as public research leads without consent. Once a public source is available, cite that source and its precise scope.
+
+読者が追跡できる論文・プレプリント・研究会報告・公開スライドを収録対象とし、媒体と確認範囲を明記します。公開と査読済みは別です。発表題目だけで厳密な定理を認定しません。private communicationのみ・未公開原稿のみの結果は公開結果表と文献一覧から除き、公開出典を探す手掛かりとします。非公開資料中の著者名や主張を、同意なく公開の調査候補として列挙しません。

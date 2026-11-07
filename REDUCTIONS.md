@@ -27,7 +27,7 @@ Each row is a simultaneous restriction. Do not combine properties across rows. A
 | [P10](SOURCES.md#p10), Th. 4 | Multicolored Biclique → selectable shortest-path anti-forcing | Source parts of size N, parameter q: K=2q(N−1), d=6q−1; unweighted undirected | Many bypass paths; no planar or maximum-degree bound recorded |
 | [P8](SOURCES.md#p8), Ths. 4.3–4.4 | Vertex Cover → selectable min s–t cut forcing / anti-forcing | Budget n+k; forcing construction starts with 4-regular VC | 4-regular SOURCE does not imply degree-4 OUTPUT |
 | [P8](SOURCES.md#p8), Lemma 1 | Weighted multigraph cuts → unweighted simple graph cuts | Cut correspondence; polynomial construction for polynomially bounded weights | Vertex-replacement cliques do not preserve planarity or bounded degree |
-| [P7](SOURCES.md#p7), abstract | General FCP transfer | Parsimonious solution map AND coordinate alignment AND source hypotheses | Abstract only; full formal statement must be checked for a new proof |
+| [P7](SOURCES.md#p7), Th. 4 | General FCP transfer | Parsimonious solution map AND coordinate alignment AND source hypotheses | Full theorem checked; verify its hypotheses for each new reduction |
 
 ## Adding further subclasses
 

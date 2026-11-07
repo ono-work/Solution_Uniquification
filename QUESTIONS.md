@@ -22,7 +22,7 @@ Each prompt requires a prior-work check. This repository does not assert any of 
 | Matching forcing / anti-forcing | Degree-3 four-variant classification is added; inspect the original 2004 proof and extend planar cases |
 | PAU-VC follow-ups on restricted graphs | Read P9 and P11 beyond their abstracts; check all three models separately |
 | Forcing and anti-forcing minimum cuts | P8 full text is now classified into eight cases; next check additional planar/degree restrictions without assuming they are open |
-| FCP transfer theorem | Read the final P7 PDF; verify all alignment and source hypotheses, and theorem numbers |
+| FCP transfer theorem | Final P7 theorem and applications are now recorded; check alignment in each new reduction |
 | MU-VC | P6 v2 theorem locators are now recorded; compare conference and journal/preprint details |
 | Defining sets in domination / coloring / Latin squares | Separate cards are added; extend symmetry and restricted-class coverage |
 | Isolation and uniqueness recognition | Add primary sources and explain their relation without identifying them with budgeted clues |

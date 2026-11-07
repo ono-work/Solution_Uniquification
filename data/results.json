@@ -1,5 +1,5 @@
 {
-  "edition": "0.2",
+  "edition": "0.3",
   "date": "2026-11-07",
   "restriction_semantics": "Restrictions in a single row are conjunctive. null means not recorded/asserted, NOT false or open. max_degree is an upper bound, not regularity.",
   "results": [
@@ -984,6 +984,118 @@
       "parameter": null
     },
     {
+      "id": "NAE-H1",
+      "family": "sat",
+      "group": "unique-extension",
+      "domain": {
+        "en": "NAE-3SAT with Boolean constants; no planar/occurrence promise",
+        "ja": "Boolean定数付きNAE-3SAT。平面性・出現回数制限なし"
+      },
+      "model": {
+        "en": "Prescribed partition X,Y; choose values of X; unique extension to Y",
+        "ja": "変数分割X,Yは入力。Xの値を選び、Yへの拡張を一意にする"
+      },
+      "result": {
+        "en": "Σ₂^P-hard",
+        "ja": "Σ₂^P困難"
+      },
+      "source": "P16",
+      "locator": "§3.10, Th. 3.10.1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "NAE-H2",
+      "family": "sat",
+      "group": "unique-extension",
+      "domain": {
+        "en": "NAE-3SAT without constants; repeated variables allowed",
+        "ja": "定数なしNAE-3SAT。節内の変数重複を許す"
+      },
+      "model": {
+        "en": "∃X ∃!Y; X is prescribed, not a budgeted selectable clue set",
+        "ja": "∃X ∃!Y。Xは入力で固定され、予算内で指定集合を選ぶFCPとは別"
+      },
+      "result": {
+        "en": "Σ₂^P-complete (table); theorem proves hardness",
+        "ja": "Σ₂^P完全（一覧表）。定理本文は困難性を証明"
+      },
+      "source": "P16",
+      "locator": "§3.10, Th. 3.10.2; survey table §2.1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "SAT-H7",
+      "family": "sat",
+      "group": "hard",
+      "domain": {
+        "en": "Positive planar 1-in-3SAT",
+        "ja": "positive planar 1-in-3SAT"
+      },
+      "model": {
+        "en": "FCP; choose variable-value clues and target",
+        "ja": "FCP・変数値の指定と目標解を選択"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P7",
+      "locator": "§5.3, Example A",
+      "evidence": "S",
+      "planar": true,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "SAT-H8",
+      "family": "sat",
+      "group": "hard",
+      "domain": {
+        "en": "1-in-3SAT+: exactly three literals per clause",
+        "ja": "1-in-3SAT+：各節がちょうど3リテラル"
+      },
+      "model": {
+        "en": "FCP; + denotes exact clause length, NOT positivity",
+        "ja": "FCP。+は節長を表し、positiveの意味ではない"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P7",
+      "locator": "§5.3, Example B",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
       "id": "PUZ-H1",
       "family": "puzzles",
       "group": "hard",
@@ -1149,6 +1261,34 @@
       "direction": null,
       "weights": null,
       "target": null,
+      "parameter": null
+    },
+    {
+      "id": "PUZ-H7",
+      "family": "puzzles",
+      "group": "hard",
+      "domain": {
+        "en": "Generalized Minesweeper consistency",
+        "ja": "一般化Minesweeperの整合性問題"
+      },
+      "model": {
+        "en": "FCP; place bombs or displayed neighbor counts on undecided cells",
+        "ja": "FCP・未確定マスに爆弾または周囲の爆弾数を表示"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P7",
+      "locator": "Th. 6; Cor. 11",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
       "parameter": null
     },
     {
@@ -1980,8 +2120,8 @@
         "ja": "正式な仮定の下でΣ₂^P完全性を移送"
       },
       "source": "P7",
-      "locator": "final abstract",
-      "evidence": "A",
+      "locator": "Th. 4; §3; checklist §5.3",
+      "evidence": "S",
       "planar": null,
       "bipartite": null,
       "max_degree": null,

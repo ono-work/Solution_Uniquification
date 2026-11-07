@@ -27,7 +27,7 @@
 | [P10](SOURCES.md#p10), Th. 4 | Multicolored Biclique→目標選択最短路anti-forcing | 元の各部の大きさN・パラメータqに対しK=2q(N−1)、d=6q−1。重みなし無向 | 多数の迂回路。平面・最大次数の保証は未記録 |
 | [P8](SOURCES.md#p8), Ths. 4.3–4.4 | Vertex Cover→目標選択min s–t cut forcing／anti-forcing | 予算n+k。forcing側は4正則VCからの構成 | 帰着元が4正則でも、帰着後が次数4とは限らない |
 | [P8](SOURCES.md#p8), Lemma 1 | 重み付き多重グラフcut→重みなし単純グラフcut | cutの対応。重みが多項式有界なら構成は多項式時間 | 頂点をクリークで置換するため平面性・次数制限は保存されない |
-| [P7](SOURCES.md#p7), abstract | 一般のFCP移送 | 解のparsimonious対応に加え、座標整列と帰着元の仮定 | 要旨のみ。新しい証明への適用時は正式な定理を確認 |
+| [P7](SOURCES.md#p7), Th. 4 | 一般のFCP移送 | 解のparsimonious対応に加え、座標整列と帰着元の仮定 | 正式な定理を確認済み。新しい帰着ごとに仮定を検証 |
 
 ## 今後の追加単位
 

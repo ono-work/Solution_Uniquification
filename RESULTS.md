@@ -1,7 +1,7 @@
 # Results by problem and input restriction
 [日本語](RESULTS.ja.md) · [Home](README.md) · [Reduction-source index](REDUCTIONS.md)
 
-Edition 0.2 · 2026-11-07. **Read each row as one conjunction of hypotheses.** Planar + bipartite + Δ≤3 is stronger than any one condition alone; conditions from different rows cannot be combined. Δ is maximum degree, not regularity. Missing restrictions mean **not recorded**, not an open problem.
+Edition 0.3 · 2026-11-07. **Read each row as one conjunction of hypotheses.** Planar + bipartite + Δ≤3 is stronger than any one condition alone; conditions from different rows cannot be combined. Δ is maximum degree, not regularity. Missing restrictions mean **not recorded**, not an open problem.
 
 Each row separates the underlying problem, allowed clues, target supplied/selected, structural input restrictions, and parameter. S: statement checked in full text; A: primary abstract only; H: reported through another paper; D: elementary consequence explained here. These are access levels, not independent proof certification. [Sources and versions](SOURCES.md). n=|V|, m=|E|, τ is the original vertex-cover number; O* suppresses polynomial factors.
 
@@ -123,6 +123,17 @@ Clues fix variable values. Planar here refers to the formula/incidence-planarity
 | SAT-H4 | Planar 1-in-3 SAT | FCP; target selectable; exactly one true literal per clause | Σ₂^P-complete | [P4](SOURCES.md#p4), Lemma 10 | S |
 | SAT-H5 | 1-in-3 SAT | FCP; target selectable | Σ₂^P-complete | [P4](SOURCES.md#p4), Lemma 11 | S |
 | SAT-H6 | 2CNF | FCP; target selectable | NP-complete | [P4](SOURCES.md#p4), Th. 18 | S |
+| SAT-H7 | Positive planar 1-in-3SAT | FCP; choose variable-value clues and target | Σ₂^P-complete | [P7](SOURCES.md#p7), §5.3, Example A | S |
+| SAT-H8 | 1-in-3SAT+: exactly three literals per clause | FCP; + denotes exact clause length, NOT positivity | Σ₂^P-complete | [P7](SOURCES.md#p7), §5.3, Example B | S |
+
+### Prescribed variables: unique extension (related problem)
+
+| ID | Input / simultaneous restrictions | Model / target | Result | Source / location | Evidence |
+|---|---|---|---|---|---|
+| NAE-H1 | NAE-3SAT with Boolean constants; no planar/occurrence promise | Prescribed partition X,Y; choose values of X; unique extension to Y | Σ₂^P-hard | [P16](SOURCES.md#p16), §3.10, Th. 3.10.1 | S |
+| NAE-H2 | NAE-3SAT without constants; repeated variables allowed | ∃X ∃!Y; X is prescribed, not a budgeted selectable clue set | Σ₂^P-complete (table); theorem proves hardness | [P16](SOURCES.md#p16), §3.10, Th. 3.10.2; survey table §2.1 | S |
+
+**NAE model boundary.** P16 studies a prescribed partition X,Y: ∃x ∃!y φ(x,y). This is not the FCP problem of choosing any ≤k variable positions. The constant-free reduction uses NAE(T,T,F), so distinct variables per clause are not promised. With no constants, complementing every variable preserves solutions, but fixing X can break that symmetry. Do not infer monotone, planar or bounded-occurrence hardness.
 
 <a id="puzzles"></a>
 ## Triangle partitions, Latin squares and puzzles
@@ -139,6 +150,7 @@ Triangle partition means partitioning EDGES into triangles, not vertices. Its tr
 | PUZ-H4 | Triangle EDGE partition; not vertex partition | Specify triangles in the decomposition | Σ₂^P-complete | [P4](SOURCES.md#p4), Th. 12 | S |
 | PUZ-H5 | Tripartite graph; triangle EDGE partition | FCP | Σ₂^P-complete, used in the Latin-square reduction | [P4](SOURCES.md#p4), proof of Th. 13 | S |
 | PUZ-H6 | Partial Latin square, variable order | Additional cell entries; target selectable | Σ₂^P-complete | [P4](SOURCES.md#p4), Th. 13 | S |
+| PUZ-H7 | Generalized Minesweeper consistency | FCP; place bombs or displayed neighbor counts on undecided cells | Σ₂^P-complete | [P7](SOURCES.md#p7), Th. 6; Cor. 11 | S |
 
 <a id="mst"></a>
 ## Minimum spanning trees and minimum-weight bases
@@ -247,13 +259,13 @@ These are INCLUDE clues among ORIGINAL optima, with selectable targets. Each k i
 <a id="transfer"></a>
 ## General transfer theorem
 
-This is a model-level theorem, not a structural graph subclass. Parsimoniousness alone is insufficient: coordinate alignment and the full source hypotheses must also be checked. Only the final abstract has been checked here.
+This is a model-level theorem, not a structural graph subclass. Parsimoniousness alone is insufficient: coordinate alignment and the full source hypotheses must also be checked. The final full-text Theorem 4 and its checklist have been checked.
 
 ### Transfer
 
 | ID | Input / simultaneous restrictions | Model / target | Result | Source / location | Evidence |
 |---|---|---|---|---|---|
-| META-1 | Source NP problem with Σ₂^P-complete FCP; aligned parsimonious reduction | FCP transfer; target certificates polynomially checkable | Transfers Σ₂^P-completeness under the formal hypotheses | [P7](SOURCES.md#p7), final abstract | A |
+| META-1 | Source NP problem with Σ₂^P-complete FCP; aligned parsimonious reduction | FCP transfer; target certificates polynomially checkable | Transfers Σ₂^P-completeness under the formal hypotheses | [P7](SOURCES.md#p7), Th. 4; §3; checklist §5.3 | S |
 
 ## Coverage and maintenance
 

@@ -1,7 +1,7 @@
 # Solution Uniquification
 ## Forcing Sets, Fewest Clues, and Pre-assignment
 
-[日本語](README.ja.md) · Version 0.2 · 2026-11-07 · Working survey
+[日本語](README.ja.md) · Version 0.3 · 2026-11-07 · Working survey
 
 **How much information or modification is needed to leave exactly one solution?**
 This repository connects several ways of asking this question. It is designed for students entering the subject and researchers comparing models.

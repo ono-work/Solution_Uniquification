@@ -1,15 +1,15 @@
 # Verification record / 確認記録
 
-Edition 0.2 · 2026-11-07 · Selective working survey
+Edition 0.3 · 2026-11-07 · Selective working survey
 
 ## Scope / 対象
 
 - Seven paired English/Japanese documents, including the new reduction-source index.
-- 71 aligned result records across 11 problem families/sections, 15 source records and 16 BibTeX entries.
+- 76 aligned result records across 11 problem families/sections, 16 source records and 17 BibTeX entries.
 - One machine-readable catalogue (`data/results.json`) generates both result pages using `scripts/build_results.py`.
 - Eight exercises with answers and a Python example enumerator remain available.
 
-英日7組、問題別11節・結果71項目、出典15件、BibTeX16件です。平面性・二部性・最大次数の同時条件、モデル、目標解、重み、パラメータを分けました。旧R01–R18は問題別IDへ置換し、分割・拡充しています。旧版はGit履歴に残ります。
+英日7組、問題別11節・結果76項目、出典16件、BibTeX17件です。平面性・二部性・最大次数の同時条件、モデル、目標解、重み、パラメータを分けました。旧R01–R18は問題別IDへ置換し、分割・拡充しています。旧版はGit履歴に残ります。
 
 ## Mathematical checks / 数学的な確認
 
@@ -35,7 +35,7 @@ python3 scripts/build_results.py
 python3 scripts/check_repository.py
 ```
 
-The checker validates local documentation links, explicit source anchors, seven language pairs, all 71 result IDs against the shared data, unique bibliography keys, and critical structural restrictions. The result pages are generated reproducibly from the same data. The result IDs and evidence labels were aligned between languages. It does not automatically prove translations equivalent or external URLs permanently reachable.
+The checker validates local documentation links, explicit source anchors, seven language pairs, all 76 result IDs against the shared data, unique bibliography keys, and critical structural restrictions. The result pages are generated reproducibly from the same data. The result IDs and evidence labels were aligned between languages. It does not automatically prove translations equivalent or external URLs permanently reachable.
 
 参照先の版、公刊年と投稿年、モデル制限を点検しました。幅表現が与えられる場合の計算時間と、clique-widthによるFPTという主張を区別しています。一般化されたパズルを、固定サイズのパズルと混同しない表記にしています。
 
@@ -43,7 +43,7 @@ The checker validates local documentation links, explicit source anchors, seven 
 
 S means the relevant statement was found in accessible full text. A means primary-abstract confirmation only. H means a historical report through another paper. These are evidence-access levels, not peer-review or proof-certification badges.
 
-The reductions and algorithms in the cited papers have not been independently re-proved in this edition. P6, P8 and P10 have now been checked in full text; the cut matrix and weight assumptions are recorded. P9/P11 restricted PAU results and P13 remain abstract-level. The original 2004 matching proof and full P7 meta-theorem hypotheses remain on the reading queue. P14 footnote 1 reports the correction of the earlier degree-4 matching claim; this discrepancy is retained explicitly. D labels elementary derivations, not source theorems.
+The reductions and algorithms in the cited papers have not been independently re-proved in this edition. P6, P8 and P10 have now been checked in full text; the cut matrix and weight assumptions are recorded. P9/P11 restricted PAU results and P13 remain abstract-level. The original 2004 matching proof remains on the reading queue. P7 final Theorem 4 and its applications, and P16 NAE unique-extension results have now been checked in full text. Private-communication-only results are excluded from the public catalogue. P14 footnote 1 reports the correction of the earlier degree-4 matching claim; this discrepancy is retained explicitly. D labels elementary derivations, not source theorems.
 
 This edition was prepared and checked by the same assistant; no independent reviewer or human approval is claimed. No unpublished research, account information or authentication material is part of the repository.
 
