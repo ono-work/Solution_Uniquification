@@ -19,12 +19,12 @@ Each prompt requires a prior-work check. This repository does not assert any of 
 
 | Topic / lead | Action before adding precise results |
 |---|---|
-| Matching forcing / anti-forcing | Read the original 2004 theorem and degree restrictions; add alternating-cycle and planar special cases with primary citations |
+| Matching forcing / anti-forcing | Degree-3 four-variant classification is added; inspect the original 2004 proof and extend planar cases |
 | PAU-VC follow-ups on restricted graphs | Read P9 and P11 beyond their abstracts; check all three models separately |
-| Forcing and anti-forcing minimum cuts | Read P8 full text and extract the per-variant classification; the primary indexed abstract is now recorded |
+| Forcing and anti-forcing minimum cuts | P8 full text is now classified into eight cases; next check additional planar/degree restrictions without assuming they are open |
 | FCP transfer theorem | Read the final P7 PDF; verify all alignment and source hypotheses, and theorem numbers |
-| MU-VC | Check P6 v2 full text against the conference version; add exact theorem locators |
-| Defining sets in domination / coloring / Latin squares | Build separate cards, including symmetry and fixed-target assumptions |
+| MU-VC | P6 v2 theorem locators are now recorded; compare conference and journal/preprint details |
+| Defining sets in domination / coloring / Latin squares | Separate cards are added; extend symmetry and restricted-class coverage |
 | Isolation and uniqueness recognition | Add primary sources and explain their relation without identifying them with budgeted clues |
 
 A missing row is a coverage gap, not evidence of tractability, hardness or an open problem.

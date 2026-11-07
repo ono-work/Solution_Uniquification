@@ -1,7 +1,7 @@
 # Solution Uniquification
 ## Forcing Sets, Fewest Clues, and Pre-assignment
 
-[日本語](README.ja.md) · Version 0.1 · 2026-11-07 · Working survey
+[日本語](README.ja.md) · Version 0.2 · 2026-11-07 · Working survey
 
 **How much information or modification is needed to leave exactly one solution?**
 This repository connects several ways of asking this question. It is designed for students entering the subject and researchers comparing models.
@@ -13,6 +13,7 @@ Start with the examples, then distinguish the models before comparing complexity
 | [Models](MODELS.md) | Solution families, clues, fixed versus selectable targets | [モデル](MODELS.ja.md) |
 | [Methods](METHODS.md) | Difference sets, hitting sets, uniqueness verification | [共通手法](METHODS.ja.md) |
 | [Results](RESULTS.md) | A model-sensitive catalogue of selected results | [主要結果](RESULTS.ja.md) |
+| [Reduction sources](REDUCTIONS.md) | Restricted hard cases, budget maps and preserved properties | [日本語](REDUCTIONS.ja.md) |
 | [Reading guide](READING.md) | Six seminar sessions, exercises and answers | [読む順序・演習](READING.ja.md) |
 | [Questions](QUESTIONS.md) | Literature questions, research prompts, coverage gaps | [研究上の問い](QUESTIONS.ja.md) |
 | [Sources](SOURCES.md) | References, versions and evidence levels | 英日共通 |

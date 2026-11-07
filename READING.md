@@ -12,7 +12,7 @@ The six sessions can each take 60–90 minutes; the goal is to explain one defin
 | 3. Verification versus search | Methods §§3–4; P3 §2 | Write a blocking clause; explain Q1 versus Q2 without conflating their quantifiers |
 | 4. Puzzle design and FCP | P4 §§2, 4–5 | Specify the certificate coordinates and explain why a clue needs exactly one completion |
 | 5. Original optimal solutions | P1 §2.2; P5 §§1, 3 | Prove the deletion identity; locate the model restriction of the width result |
-| 6. Extensions and paper review | P6 and P7 abstracts, then their full papers | Compare deletion and preservation; write a result card and mark unverified details |
+| 6. Extensions and paper review | P6 full text; P7 abstract, then the formal theorem | Compare deletion and preservation; write a result card and mark unverified details |
 
 All paper IDs are resolved in [Sources](SOURCES.md). For an introductory course, stop after Sessions 1–4 and the deletion identity. The later sessions are an entry into research.
 

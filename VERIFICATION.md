@@ -1,15 +1,15 @@
 # Verification record / 確認記録
 
-Edition 0.1 · 2026-11-07 · Selective working survey
+Edition 0.2 · 2026-11-07 · Selective working survey
 
 ## Scope / 対象
 
-- Six paired English/Japanese documents: entry point, models, common methods, selected results, reading guide and questions.
-- Eighteen aligned result rows, eleven source records and twelve BibTeX entries (FCP conference and journal versions are separate).
-- One historical matching result marked H outside the numbered table.
-- Eight exercises with answers, and a Python example enumerator.
+- Seven paired English/Japanese documents, including the new reduction-source index.
+- 71 aligned result records across 11 problem families/sections, 15 source records and 16 BibTeX entries.
+- One machine-readable catalogue (`data/results.json`) generates both result pages using `scripts/build_results.py`.
+- Eight exercises with answers and a Python example enumerator remain available.
 
-英日6組、主要結果18行、出典11件、BibTeX 12件、演習8問を含みます。matchingの歴史的結果は確認範囲Hとして番号付き表と分けています。
+英日7組、問題別11節・結果71項目、出典15件、BibTeX16件です。平面性・二部性・最大次数の同時条件、モデル、目標解、重み、パラメータを分けました。旧R01–R18は問題別IDへ置換し、分割・拡充しています。旧版はGit履歴に残ります。
 
 ## Mathematical checks / 数学的な確認
 
@@ -31,10 +31,11 @@ Run from the repository root:
 
 ```bash
 python3 examples/exact_examples.py
+python3 scripts/build_results.py
 python3 scripts/check_repository.py
 ```
 
-The checker validates local documentation links, explicit source anchors, the six language pairs, eighteen matching result IDs and unique bibliography keys. The result IDs and evidence labels were aligned between languages. It does not automatically prove translations equivalent or external URLs permanently reachable.
+The checker validates local documentation links, explicit source anchors, seven language pairs, all 71 result IDs against the shared data, unique bibliography keys, and critical structural restrictions. The result pages are generated reproducibly from the same data. The result IDs and evidence labels were aligned between languages. It does not automatically prove translations equivalent or external URLs permanently reachable.
 
 参照先の版、公刊年と投稿年、モデル制限を点検しました。幅表現が与えられる場合の計算時間と、clique-widthによるFPTという主張を区別しています。一般化されたパズルを、固定サイズのパズルと混同しない表記にしています。
 
@@ -42,7 +43,7 @@ The checker validates local documentation links, explicit source anchors, the si
 
 S means the relevant statement was found in accessible full text. A means primary-abstract confirmation only. H means a historical report through another paper. These are evidence-access levels, not peer-review or proof-certification badges.
 
-The reductions and algorithms in the cited papers have not been independently re-proved in this edition. Recent cut results are described at abstract level without inventing a classification matrix. The original 2004 matching proof, precise recent weight assumptions, and full meta-theorem hypotheses remain on the reading queue.
+The reductions and algorithms in the cited papers have not been independently re-proved in this edition. P6, P8 and P10 have now been checked in full text; the cut matrix and weight assumptions are recorded. P9/P11 restricted PAU results and P13 remain abstract-level. The original 2004 matching proof and full P7 meta-theorem hypotheses remain on the reading queue. P14 footnote 1 reports the correction of the earlier degree-4 matching claim; this discrepancy is retained explicitly. D labels elementary derivations, not source theorems.
 
 This edition was prepared and checked by the same assistant; no independent reviewer or human approval is claimed. No unpublished research, account information or authentication material is part of the repository.
 

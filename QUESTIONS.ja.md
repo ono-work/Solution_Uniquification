@@ -19,12 +19,12 @@
 
 | 対象・文献候補 | 正確な結果を追加する前に行うこと |
 |---|---|
-| matchingのforcing／anti-forcing | 2004年の原定理と次数制限を確認。交互閉路・平面グラフの結果にも一次出典を付ける |
+| matchingのforcing／anti-forcing | 次数3の四変種は収録済み。2004年の原証明と平面版の追加分類を確認 |
 | 制限グラフ上のPAU-VC | P9・P11の要旨から本文へ進み、三モデルを個別に点検 |
-| minimum cutのforcing／anti-forcing | P8の本文を取得し、変種別分類を確認。一次資料の索引要旨は記録済み |
+| minimum cutのforcing／anti-forcing | P8本文の八変種は分類済み。次は平面・次数制限の追加文献を調べる。未収録を未解決とは扱わない |
 | FCP移送定理 | P7の最終版PDFを読み、座標整列・帰着元の条件・定理番号を確認 |
-| MU-VC | P6 v2本文と会議版を照合し、定理の位置を追加 |
-| domination／coloring／Latin squareのdefining set | 対称性と指定解の条件も付けた個別カードを作成 |
+| MU-VC | P6 v2の定理位置は記載済み。会議版との差異を確認 |
+| domination／coloring／Latin squareのdefining set | 個別分類は収録済み。対称性と制限グラフの範囲を拡充 |
 | isolationと一意性判定 | 一次文献を補い、指定数制限つきの一意化と混同せず関連を説明 |
 
 表にない項目は未調査であり、容易・困難・未解決のいずれを意味するものでもありません。

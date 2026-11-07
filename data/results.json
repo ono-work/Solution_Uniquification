@@ -1,0 +1,1995 @@
+{
+  "edition": "0.2",
+  "date": "2026-11-07",
+  "restriction_semantics": "Restrictions in a single row are conjunctive. null means not recorded/asserted, NOT false or open. max_degree is an upper bound, not regularity.",
+  "results": [
+    {
+      "id": "VC-H1",
+      "family": "pau",
+      "group": "hard",
+      "domain": {
+        "en": "General graphs",
+        "ja": "一般グラフ"
+      },
+      "model": {
+        "en": "INCLUDE / EXCLUDE / MIXED; target selectable",
+        "ja": "三モデルすべて・目標解を選択"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P1",
+      "locator": "Th. 6",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "VC-H2",
+      "family": "pau",
+      "group": "hard",
+      "domain": {
+        "en": "Planar graphs, Δ ≤ 3",
+        "ja": "平面グラフかつ最大次数3以下"
+      },
+      "model": {
+        "en": "All three models; target selectable",
+        "ja": "三モデルすべて・目標解を選択"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P9",
+      "locator": "abstract",
+      "evidence": "A",
+      "planar": true,
+      "bipartite": null,
+      "max_degree": 3,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "VC-H3",
+      "family": "pau",
+      "group": "hard",
+      "domain": {
+        "en": "Bipartite graphs",
+        "ja": "二部グラフ"
+      },
+      "model": {
+        "en": "All three models; target selectable",
+        "ja": "三モデルすべて・目標解を選択"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P1",
+      "locator": "Ths. 13–14",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": true,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "VC-H4",
+      "family": "pau",
+      "group": "hard",
+      "domain": {
+        "en": "Planar AND bipartite, Δ ≤ 3",
+        "ja": "平面かつ二部、最大次数3以下"
+      },
+      "model": {
+        "en": "MIXED as defined in the primary abstract",
+        "ja": "一次要旨で定義されたMIXED"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P11",
+      "locator": "abstract",
+      "evidence": "A",
+      "planar": true,
+      "bipartite": true,
+      "max_degree": 3,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "VC-A1",
+      "family": "pau",
+      "group": "algorithm",
+      "domain": {
+        "en": "General graphs",
+        "ja": "一般グラフ"
+      },
+      "model": {
+        "en": "All three models",
+        "ja": "三モデルすべて"
+      },
+      "result": {
+        "en": "O(2.1996^n)",
+        "ja": "O(2.1996^n)"
+      },
+      "source": "P1",
+      "locator": "Th. 15",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "VC-A2",
+      "family": "pau",
+      "group": "algorithm",
+      "domain": {
+        "en": "Parameter τ: original vertex-cover number",
+        "ja": "元の最小被覆数τでパラメータ化"
+      },
+      "model": {
+        "en": "All three models",
+        "ja": "三モデルすべて"
+      },
+      "result": {
+        "en": "O*(3.6791^τ)",
+        "ja": "O*(3.6791^τ)"
+      },
+      "source": "P1",
+      "locator": "Ths. 16, 18",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "tau"
+    },
+    {
+      "id": "VC-A3",
+      "family": "pau",
+      "group": "algorithm",
+      "domain": {
+        "en": "Bipartite graphs; historical bound",
+        "ja": "二部グラフ・当初の上界"
+      },
+      "model": {
+        "en": "All three models",
+        "ja": "三モデルすべて"
+      },
+      "result": {
+        "en": "O(1.9181^n)",
+        "ja": "O(1.9181^n)"
+      },
+      "source": "P1",
+      "locator": "§4.3",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": true,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "VC-A4",
+      "family": "pau",
+      "group": "algorithm",
+      "domain": {
+        "en": "Bipartite graphs; improved bound",
+        "ja": "二部グラフ・改善後の上界"
+      },
+      "model": {
+        "en": "MIXED; do not infer INCLUDE-only applicability from the abstract",
+        "ja": "MIXED。要旨だけでINCLUDEへの適用を推測しない"
+      },
+      "result": {
+        "en": "O(1.4143^n)",
+        "ja": "O(1.4143^n)"
+      },
+      "source": "P11",
+      "locator": "abstract",
+      "evidence": "A",
+      "planar": null,
+      "bipartite": true,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "VC-A5",
+      "family": "pau",
+      "group": "algorithm",
+      "domain": {
+        "en": "Trees; original bound",
+        "ja": "木・当初の上界"
+      },
+      "model": {
+        "en": "All three models",
+        "ja": "三モデルすべて"
+      },
+      "result": {
+        "en": "O(1.4143^n)",
+        "ja": "O(1.4143^n)"
+      },
+      "source": "P1",
+      "locator": "§4.4",
+      "evidence": "S",
+      "planar": true,
+      "bipartite": true,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "VC-A6",
+      "family": "pau",
+      "group": "algorithm",
+      "domain": {
+        "en": "Parameter: clique-width cw",
+        "ja": "clique-width cwでパラメータ化"
+      },
+      "model": {
+        "en": "INCLUDE only",
+        "ja": "INCLUDEのみ"
+      },
+      "result": {
+        "en": "FPT; supplied w-expression: 2^{O(2^w)}n²",
+        "ja": "FPT。幅wの表現が入力なら2^{O(2^w)}n²"
+      },
+      "source": "P5",
+      "locator": "Th. 1.1; §3.2",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "cw"
+    },
+    {
+      "id": "VC-A7",
+      "family": "pau",
+      "group": "algorithm",
+      "domain": {
+        "en": "Trees",
+        "ja": "木"
+      },
+      "model": {
+        "en": "INCLUDE only",
+        "ja": "INCLUDEのみ"
+      },
+      "result": {
+        "en": "Polynomial time (bounded clique-width consequence)",
+        "ja": "多項式時間（clique-width有界からの帰結）"
+      },
+      "source": "P5",
+      "locator": "Th. 1.1; §3.1",
+      "evidence": "D",
+      "planar": true,
+      "bipartite": true,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "VC-A8",
+      "family": "pau",
+      "group": "algorithm",
+      "domain": {
+        "en": "Split graphs",
+        "ja": "split graph"
+      },
+      "model": {
+        "en": "INCLUDE only",
+        "ja": "INCLUDEのみ"
+      },
+      "result": {
+        "en": "Linear time",
+        "ja": "線形時間"
+      },
+      "source": "P5",
+      "locator": "Th. 5.1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "VC-A9",
+      "family": "pau",
+      "group": "algorithm",
+      "domain": {
+        "en": "Unit interval graphs",
+        "ja": "unit interval graph"
+      },
+      "model": {
+        "en": "INCLUDE only",
+        "ja": "INCLUDEのみ"
+      },
+      "result": {
+        "en": "Linear time",
+        "ja": "線形時間"
+      },
+      "source": "P5",
+      "locator": "Th. 4.1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "VC-X1",
+      "family": "pau",
+      "group": "approximation",
+      "domain": {
+        "en": "Bipartite graphs",
+        "ja": "二部グラフ"
+      },
+      "model": {
+        "en": "INCLUDE; minimum clue cost",
+        "ja": "INCLUDE・最小指定数"
+      },
+      "result": {
+        "en": "No polynomial-time constant-factor approximation unless P=NP",
+        "ja": "P≠NPなら多項式時間定数近似なし"
+      },
+      "source": "P5",
+      "locator": "§6",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": true,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "MU-H1",
+      "family": "mu",
+      "group": "hard",
+      "domain": {
+        "en": "Planar graphs, Δ ≤ 5",
+        "ja": "平面グラフかつ最大次数5以下"
+      },
+      "model": {
+        "en": "Vertex deletion; no original-optimum preservation",
+        "ja": "頂点削除・元の最適値の保存を要求しない"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P6",
+      "locator": "Th. 7",
+      "evidence": "S",
+      "planar": true,
+      "bipartite": null,
+      "max_degree": 5,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "MU-A1",
+      "family": "mu",
+      "group": "algorithm",
+      "domain": {
+        "en": "Trees",
+        "ja": "木"
+      },
+      "model": {
+        "en": "Vertex deletion",
+        "ja": "頂点削除"
+      },
+      "result": {
+        "en": "O(n)",
+        "ja": "O(n)"
+      },
+      "source": "P6",
+      "locator": "Th. 2",
+      "evidence": "S",
+      "planar": true,
+      "bipartite": true,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "MU-A2",
+      "family": "mu",
+      "group": "algorithm",
+      "domain": {
+        "en": "Treewidth w",
+        "ja": "treewidth w"
+      },
+      "model": {
+        "en": "Vertex deletion",
+        "ja": "頂点削除"
+      },
+      "result": {
+        "en": "XP: n^{O(2^w)}",
+        "ja": "XP：n^{O(2^w)}"
+      },
+      "source": "P6",
+      "locator": "Th. 3",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "tw"
+    },
+    {
+      "id": "MU-A3",
+      "family": "mu",
+      "group": "algorithm",
+      "domain": {
+        "en": "Treewidth w AND maximum degree Δ",
+        "ja": "treewidth wと最大次数Δ"
+      },
+      "model": {
+        "en": "Vertex deletion",
+        "ja": "頂点削除"
+      },
+      "result": {
+        "en": "FPT: Δ^{O(2^w)}n (decomposition DP)",
+        "ja": "FPT：Δ^{O(2^w)}n（分解上のDP）"
+      },
+      "source": "P6",
+      "locator": "Th. 4",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "tw+Delta"
+    },
+    {
+      "id": "MU-A4",
+      "family": "mu",
+      "group": "algorithm",
+      "domain": {
+        "en": "Supplied clique-width d-expression",
+        "ja": "clique-width d-expressionを入力"
+      },
+      "model": {
+        "en": "Vertex deletion",
+        "ja": "頂点削除"
+      },
+      "result": {
+        "en": "XP: n^{O(2^d)}",
+        "ja": "XP：n^{O(2^d)}"
+      },
+      "source": "P6",
+      "locator": "Th. 5; proof",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "cw-expression"
+    },
+    {
+      "id": "MU-A5",
+      "family": "mu",
+      "group": "algorithm",
+      "domain": {
+        "en": "Supplied d-expression AND deletion budget k",
+        "ja": "幅dの表現と削除予算k"
+      },
+      "model": {
+        "en": "Vertex deletion",
+        "ja": "頂点削除"
+      },
+      "result": {
+        "en": "FPT: k^{O(2^d)}n; handle k=0 separately",
+        "ja": "FPT：k^{O(2^d)}n。k=0は別処理"
+      },
+      "source": "P6",
+      "locator": "Th. 6; proof",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "cw-expression+k"
+    },
+    {
+      "id": "PM-H1",
+      "family": "matching",
+      "group": "hard",
+      "domain": {
+        "en": "Bipartite, Δ ≤ 3",
+        "ja": "二部グラフかつ最大次数3以下"
+      },
+      "model": {
+        "en": "Forcing; perfect matching M supplied",
+        "ja": "forcing・完全マッチングMが入力"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P2",
+      "locator": "reported in P12 Th. D and P14 §1",
+      "evidence": "H",
+      "planar": null,
+      "bipartite": true,
+      "max_degree": 3,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "PM-H2",
+      "family": "matching",
+      "group": "hard",
+      "domain": {
+        "en": "Bipartite, Δ ≤ 3",
+        "ja": "二部グラフかつ最大次数3以下"
+      },
+      "model": {
+        "en": "Anti-forcing; M supplied",
+        "ja": "anti-forcing・Mが入力"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P14",
+      "locator": "Th. 3",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": true,
+      "max_degree": 3,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "PM-H3",
+      "family": "matching",
+      "group": "hard",
+      "domain": {
+        "en": "Bipartite, Δ ≤ 3",
+        "ja": "二部グラフかつ最大次数3以下"
+      },
+      "model": {
+        "en": "Forcing; M selectable",
+        "ja": "forcing・Mを選択"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P14",
+      "locator": "Th. 4",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": true,
+      "max_degree": 3,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "PM-H4",
+      "family": "matching",
+      "group": "hard",
+      "domain": {
+        "en": "Bipartite, Δ ≤ 3",
+        "ja": "二部グラフかつ最大次数3以下"
+      },
+      "model": {
+        "en": "Anti-forcing; M selectable",
+        "ja": "anti-forcing・Mを選択"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P14",
+      "locator": "Th. 5",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": true,
+      "max_degree": 3,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "PM-O1",
+      "family": "matching",
+      "group": "historical",
+      "domain": {
+        "en": "Bipartite, Δ ≤ 4; superseded",
+        "ja": "二部グラフ・最大次数4以下。後続結果あり"
+      },
+      "model": {
+        "en": "Anti-forcing; M supplied",
+        "ja": "anti-forcing・Mが入力"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P13",
+      "locator": "abstract",
+      "evidence": "A",
+      "planar": null,
+      "bipartite": true,
+      "max_degree": 4,
+      "regular_degree": null,
+      "direction": null,
+      "weights": "unit",
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "PM-O2",
+      "family": "matching",
+      "group": "historical",
+      "domain": {
+        "en": "Bipartite; paper claims Δ ≤ 4, later correction says Δ ≤ 5",
+        "ja": "二部グラフ。原論文はΔ≤4と主張、後続論文は構成のΔ≤5を指摘"
+      },
+      "model": {
+        "en": "Forcing; M selectable",
+        "ja": "forcing・Mを選択"
+      },
+      "result": {
+        "en": "Historical NP-completeness; use PM-H3 for Δ ≤ 3",
+        "ja": "歴史的NP完全性。Δ≤3にはPM-H3を使用"
+      },
+      "source": "P12",
+      "locator": "Th. 7; P14 footnote 1",
+      "evidence": "H",
+      "planar": null,
+      "bipartite": true,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "PM-A1",
+      "family": "matching",
+      "group": "algorithm",
+      "domain": {
+        "en": "Plane bipartite graph",
+        "ja": "平面埋込み付き二部グラフ"
+      },
+      "model": {
+        "en": "Forcing; M supplied",
+        "ja": "forcing・Mが入力"
+      },
+      "result": {
+        "en": "Polynomial-time algorithm reported in the literature",
+        "ja": "文献で多項式時間アルゴリズムが報告"
+      },
+      "source": "P12",
+      "locator": "Th. C; concluding discussion",
+      "evidence": "H",
+      "planar": true,
+      "bipartite": true,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "PM-A2",
+      "family": "matching",
+      "group": "algorithm",
+      "domain": {
+        "en": "Graphs of maximum degree ≤ 2",
+        "ja": "最大次数2以下"
+      },
+      "model": {
+        "en": "Forcing / anti-forcing; M given or selectable",
+        "ja": "forcing／anti-forcing・M入力／選択の4通り"
+      },
+      "result": {
+        "en": "Polynomial time; one clue per even-cycle component, if a perfect matching exists",
+        "ja": "多項式時間。完全マッチングがあれば偶閉路成分ごとに1指定"
+      },
+      "source": "P14",
+      "locator": "elementary component argument in survey",
+      "evidence": "D",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": 2,
+      "regular_degree": null,
+      "direction": null,
+      "weights": "unit",
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "SAT-V1",
+      "family": "sat",
+      "group": "verification",
+      "domain": {
+        "en": "3CNF",
+        "ja": "3CNF"
+      },
+      "model": {
+        "en": "Given satisfying assignment AND clue; Q1",
+        "ja": "充足割当てと指定が入力・Q1"
+      },
+      "result": {
+        "en": "coNP-complete",
+        "ja": "coNP完全"
+      },
+      "source": "P3",
+      "locator": "Th. 3",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "SAT-H1",
+      "family": "sat",
+      "group": "hard",
+      "domain": {
+        "en": "3CNF",
+        "ja": "3CNF"
+      },
+      "model": {
+        "en": "Given satisfying assignment; find clues; Q2",
+        "ja": "充足割当てが入力・指定を探すQ2"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P3",
+      "locator": "Th. 4",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "SAT-H2",
+      "family": "sat",
+      "group": "hard",
+      "domain": {
+        "en": "3CNF",
+        "ja": "3CNF"
+      },
+      "model": {
+        "en": "Target assignment selectable; Q3",
+        "ja": "目標割当てを選択・Q3"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P3",
+      "locator": "Th. 5",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "SAT-H3",
+      "family": "sat",
+      "group": "hard",
+      "domain": {
+        "en": "Planar 3SAT (source paper’s planar formula model)",
+        "ja": "Planar 3SAT（原論文の平面式モデル）"
+      },
+      "model": {
+        "en": "FCP; target selectable",
+        "ja": "FCP・目標割当てを選択"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P4",
+      "locator": "Lemma 9",
+      "evidence": "S",
+      "planar": true,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "SAT-H4",
+      "family": "sat",
+      "group": "hard",
+      "domain": {
+        "en": "Planar 1-in-3 SAT",
+        "ja": "Planar 1-in-3 SAT"
+      },
+      "model": {
+        "en": "FCP; target selectable; exactly one true literal per clause",
+        "ja": "FCP・目標を選択・各節で真のリテラルがちょうど1個"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P4",
+      "locator": "Lemma 10",
+      "evidence": "S",
+      "planar": true,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "SAT-H5",
+      "family": "sat",
+      "group": "hard",
+      "domain": {
+        "en": "1-in-3 SAT",
+        "ja": "1-in-3 SAT"
+      },
+      "model": {
+        "en": "FCP; target selectable",
+        "ja": "FCP・目標を選択"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P4",
+      "locator": "Lemma 11",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "SAT-H6",
+      "family": "sat",
+      "group": "hard",
+      "domain": {
+        "en": "2CNF",
+        "ja": "2CNF"
+      },
+      "model": {
+        "en": "FCP; target selectable",
+        "ja": "FCP・目標を選択"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P4",
+      "locator": "Th. 18",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "PUZ-H1",
+      "family": "puzzles",
+      "group": "hard",
+      "domain": {
+        "en": "Generalized Sudoku; board size part of input",
+        "ja": "一般化Sudoku・盤面サイズも入力"
+      },
+      "model": {
+        "en": "Additional cell-value clues; target selectable",
+        "ja": "追加のマス値を指定・目標解を選択"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P4",
+      "locator": "Lemma 14",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "PUZ-H2",
+      "family": "puzzles",
+      "group": "hard",
+      "domain": {
+        "en": "Shakashaka",
+        "ja": "Shakashaka"
+      },
+      "model": {
+        "en": "Fix solution-cell states; target selectable",
+        "ja": "完成形のマス状態を指定・目標解を選択"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P4",
+      "locator": "Lemma 15",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "PUZ-H3",
+      "family": "puzzles",
+      "group": "hard",
+      "domain": {
+        "en": "Akari",
+        "ja": "Akari"
+      },
+      "model": {
+        "en": "Fix solution-cell states; target selectable",
+        "ja": "完成形のマス状態を指定・目標解を選択"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P4",
+      "locator": "Lemma 16",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "PUZ-H4",
+      "family": "puzzles",
+      "group": "hard",
+      "domain": {
+        "en": "Triangle EDGE partition; not vertex partition",
+        "ja": "辺集合を三角形に分割。頂点分割ではない"
+      },
+      "model": {
+        "en": "Specify triangles in the decomposition",
+        "ja": "分解に含める三角形を指定"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P4",
+      "locator": "Th. 12",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "PUZ-H5",
+      "family": "puzzles",
+      "group": "hard",
+      "domain": {
+        "en": "Tripartite graph; triangle EDGE partition",
+        "ja": "三部グラフ上の三角形辺分割"
+      },
+      "model": {
+        "en": "FCP",
+        "ja": "FCP"
+      },
+      "result": {
+        "en": "Σ₂^P-complete, used in the Latin-square reduction",
+        "ja": "Σ₂^P完全。Latin squareへの帰着で使用"
+      },
+      "source": "P4",
+      "locator": "proof of Th. 13",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "PUZ-H6",
+      "family": "puzzles",
+      "group": "hard",
+      "domain": {
+        "en": "Partial Latin square, variable order",
+        "ja": "位数が入力の部分Latin square"
+      },
+      "model": {
+        "en": "Additional cell entries; target selectable",
+        "ja": "追加のマス値を指定・目標完成形を選択"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P4",
+      "locator": "Th. 13",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    },
+    {
+      "id": "MST-A1",
+      "family": "mst",
+      "group": "algorithm",
+      "domain": {
+        "en": "Undirected weighted multigraph; weights may be negative",
+        "ja": "無向重み付き多重グラフ・負の重みも許す"
+      },
+      "model": {
+        "en": "Forcing / anti-forcing; target selectable",
+        "ja": "forcing／anti-forcing・目標木を選択"
+      },
+      "result": {
+        "en": "O(m log n)",
+        "ja": "O(m log n)"
+      },
+      "source": "P10",
+      "locator": "Th. 1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "arbitrary real",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "MST-A2",
+      "family": "mst",
+      "group": "algorithm",
+      "domain": {
+        "en": "Weighted matroid, independence-oracle input",
+        "ja": "重み付きmatroid・独立性オラクル入力"
+      },
+      "model": {
+        "en": "Forcing / anti-forcing; target basis selectable",
+        "ja": "forcing／anti-forcing・目標基を選択"
+      },
+      "result": {
+        "en": "Polynomially many oracle calls and polynomial computation",
+        "ja": "多項式回のオラクル呼出しと多項式計算"
+      },
+      "source": "P10",
+      "locator": "Th. 2",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": "arbitrary real",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "MST-A3",
+      "family": "mst",
+      "group": "algorithm",
+      "domain": {
+        "en": "Same matroid input, minimum-weight basis supplied",
+        "ja": "同じmatroid入力・最小重み基が入力"
+      },
+      "model": {
+        "en": "Forcing / anti-forcing of that basis",
+        "ja": "指定された基のforcing／anti-forcing"
+      },
+      "result": {
+        "en": "Polynomial time (hence also for a supplied MST)",
+        "ja": "多項式時間。指定MSTにも適用"
+      },
+      "source": "P10",
+      "locator": "Cor. 1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": "arbitrary real",
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "SP-A1",
+      "family": "shortest",
+      "group": "algorithm",
+      "domain": {
+        "en": "Directed graph, strictly positive edge lengths",
+        "ja": "有向グラフ・辺長はすべて正"
+      },
+      "model": {
+        "en": "Forcing; shortest path selectable",
+        "ja": "forcing・最短路を選択"
+      },
+      "result": {
+        "en": "O(nm)",
+        "ja": "O(nm)"
+      },
+      "source": "P10",
+      "locator": "Th. 3",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "directed",
+      "weights": "strictly positive",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "SP-A2",
+      "family": "shortest",
+      "group": "algorithm",
+      "domain": {
+        "en": "Same input; undirected case also covered",
+        "ja": "同じ入力条件。無向の場合も適用"
+      },
+      "model": {
+        "en": "Forcing; shortest path supplied",
+        "ja": "forcing・最短路が入力"
+      },
+      "result": {
+        "en": "O(nm)",
+        "ja": "O(nm)"
+      },
+      "source": "P10",
+      "locator": "Th. 3 and following paragraph",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": "strictly positive",
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "SP-H1",
+      "family": "shortest",
+      "group": "hard",
+      "domain": {
+        "en": "Undirected AND unweighted graph",
+        "ja": "無向かつ重みなしグラフ"
+      },
+      "model": {
+        "en": "Anti-forcing; shortest path selectable",
+        "ja": "anti-forcing・最短路を選択"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P10",
+      "locator": "Th. 4",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "SP-H2",
+      "family": "shortest",
+      "group": "parameterized",
+      "domain": {
+        "en": "Same unweighted undirected input",
+        "ja": "同じ重みなし無向入力"
+      },
+      "model": {
+        "en": "Anti-forcing; parameter d = shortest-path edge length",
+        "ja": "anti-forcing・パラメータdは最短路の辺数"
+      },
+      "result": {
+        "en": "W[1]-hard in d",
+        "ja": "dに関してW[1]困難"
+      },
+      "source": "P10",
+      "locator": "Th. 4",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": "d"
+    },
+    {
+      "id": "SP-A3",
+      "family": "shortest",
+      "group": "algorithm",
+      "domain": {
+        "en": "Directed, strictly positive edge lengths",
+        "ja": "有向・辺長はすべて正"
+      },
+      "model": {
+        "en": "Anti-forcing; shortest path supplied",
+        "ja": "anti-forcing・最短路が入力"
+      },
+      "result": {
+        "en": "Polynomial time",
+        "ja": "多項式時間"
+      },
+      "source": "P10",
+      "locator": "Th. 5",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "directed",
+      "weights": "strictly positive",
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "SP-A4",
+      "family": "shortest",
+      "group": "parameterized",
+      "domain": {
+        "en": "Strictly positive lengths; d = maximum edge count of an original shortest path",
+        "ja": "辺長は正。dは元の最短路が持つ辺数の最大値"
+      },
+      "model": {
+        "en": "Anti-forcing; budget k; target selectable",
+        "ja": "anti-forcing・予算k・目標路を選択"
+      },
+      "result": {
+        "en": "d^k n^{O(1)}; FPT in k+d",
+        "ja": "d^k n^{O(1)}。k+dでFPT"
+      },
+      "source": "P10",
+      "locator": "Th. 6",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": "strictly positive",
+      "target": "selectable",
+      "parameter": "k+d"
+    },
+    {
+      "id": "SP-A5",
+      "family": "shortest",
+      "group": "parameterized",
+      "domain": {
+        "en": "Same input and definition of d",
+        "ja": "同じ入力条件とdの定義"
+      },
+      "model": {
+        "en": "Anti-forcing; budget k",
+        "ja": "anti-forcing・予算k"
+      },
+      "result": {
+        "en": "(k+1)^d n^{O(1)}; FPT in k+d",
+        "ja": "(k+1)^d n^{O(1)}。k+dでFPT"
+      },
+      "source": "P10",
+      "locator": "Th. 7",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": "strictly positive",
+      "target": "selectable",
+      "parameter": "k+d"
+    },
+    {
+      "id": "SP-A6",
+      "family": "shortest",
+      "group": "parameterized",
+      "domain": {
+        "en": "Directed; underlying undirected graph has bounded treewidth",
+        "ja": "有向。基礎無向グラフのtreewidthが有界"
+      },
+      "model": {
+        "en": "Anti-forcing; shortest path selectable",
+        "ja": "anti-forcing・最短路を選択"
+      },
+      "result": {
+        "en": "Linear time for each fixed treewidth",
+        "ja": "treewidthを固定すると線形時間"
+      },
+      "source": "P10",
+      "locator": "Th. 8",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "directed",
+      "weights": "strictly positive",
+      "target": "selectable",
+      "parameter": "underlying-tw"
+    },
+    {
+      "id": "CUT-A1",
+      "family": "cut",
+      "group": "global",
+      "domain": {
+        "en": "Undirected, positive integer edge weights",
+        "ja": "無向・辺重みは正整数"
+      },
+      "model": {
+        "en": "Global min cut; forcing; target selectable",
+        "ja": "global min cut・forcing・目標cutを選択"
+      },
+      "result": {
+        "en": "O(m polylog n)",
+        "ja": "O(m polylog n)"
+      },
+      "source": "P8",
+      "locator": "Th. 3.1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "positive integers",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "CUT-A2",
+      "family": "cut",
+      "group": "global",
+      "domain": {
+        "en": "Same input",
+        "ja": "同じ入力条件"
+      },
+      "model": {
+        "en": "Global min cut; forcing; target cut supplied",
+        "ja": "global min cut・forcing・目標cutが入力"
+      },
+      "result": {
+        "en": "O(m polylog n)",
+        "ja": "O(m polylog n)"
+      },
+      "source": "P8",
+      "locator": "Cor. 1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "positive integers",
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "CUT-H1",
+      "family": "cut",
+      "group": "global",
+      "domain": {
+        "en": "Unweighted simple undirected graph",
+        "ja": "重みなし単純無向グラフ"
+      },
+      "model": {
+        "en": "Global min cut; anti-forcing; target selectable",
+        "ja": "global min cut・anti-forcing・目標cutを選択"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P8",
+      "locator": "Th. 3.3",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "CUT-H2",
+      "family": "cut",
+      "group": "global",
+      "domain": {
+        "en": "Unweighted simple undirected graph",
+        "ja": "重みなし単純無向グラフ"
+      },
+      "model": {
+        "en": "Global min cut; anti-forcing; target supplied",
+        "ja": "global min cut・anti-forcing・目標cutが入力"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P8",
+      "locator": "Cor. 2",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "CUT-H3",
+      "family": "cut",
+      "group": "st",
+      "domain": {
+        "en": "Unweighted undirected graph; simple via Lemma 1",
+        "ja": "重みなし無向グラフ。Lemma 1で単純化"
+      },
+      "model": {
+        "en": "Min s–t cut; forcing; target selectable",
+        "ja": "min s–t cut・forcing・目標cutを選択"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P8",
+      "locator": "Th. 4.3; Lemma 1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "CUT-H4",
+      "family": "cut",
+      "group": "st",
+      "domain": {
+        "en": "Unweighted undirected graph; simple via Lemma 1",
+        "ja": "重みなし無向グラフ。Lemma 1で単純化"
+      },
+      "model": {
+        "en": "Min s–t cut; anti-forcing; target selectable",
+        "ja": "min s–t cut・anti-forcing・目標cutを選択"
+      },
+      "result": {
+        "en": "NP-complete",
+        "ja": "NP完全"
+      },
+      "source": "P8",
+      "locator": "Th. 4.4; Lemma 1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "unit",
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "CUT-A3",
+      "family": "cut",
+      "group": "st",
+      "domain": {
+        "en": "Undirected, positive integer edge weights",
+        "ja": "無向・辺重みは正整数"
+      },
+      "model": {
+        "en": "Min s–t cut; forcing; target cut supplied",
+        "ja": "min s–t cut・forcing・目標cutが入力"
+      },
+      "result": {
+        "en": "O(nm)",
+        "ja": "O(nm)"
+      },
+      "source": "P8",
+      "locator": "Th. 4.5",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "positive integers",
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "CUT-A4",
+      "family": "cut",
+      "group": "st",
+      "domain": {
+        "en": "Undirected, positive integer edge weights",
+        "ja": "無向・辺重みは正整数"
+      },
+      "model": {
+        "en": "Min s–t cut; anti-forcing; target supplied",
+        "ja": "min s–t cut・anti-forcing・目標cutが入力"
+      },
+      "result": {
+        "en": "O(nm)",
+        "ja": "O(nm)"
+      },
+      "source": "P8",
+      "locator": "Th. 4.6",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": "undirected",
+      "weights": "positive integers",
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "COL-H1",
+      "family": "coloring",
+      "group": "variable",
+      "domain": {
+        "en": "χ(G)=3; optimal coloring c supplied",
+        "ja": "χ(G)=3・最適彩色cが入力"
+      },
+      "model": {
+        "en": "Find ≤ k named-color clues for c; k is input",
+        "ja": "cを確定するk個以下の色指定を探索・kは入力"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P3",
+      "locator": "Th. 7",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "given",
+      "parameter": null
+    },
+    {
+      "id": "COL-H2",
+      "family": "coloring",
+      "group": "variable",
+      "domain": {
+        "en": "χ(G)=3",
+        "ja": "χ(G)=3"
+      },
+      "model": {
+        "en": "Choose an optimal coloring and ≤ k clues; k is input",
+        "ja": "最適彩色とk個以下の指定を選択・kは入力"
+      },
+      "result": {
+        "en": "Σ₂^P-complete",
+        "ja": "Σ₂^P完全"
+      },
+      "source": "P3",
+      "locator": "Th. 8",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "COL-V1",
+      "family": "coloring",
+      "group": "fixed",
+      "domain": {
+        "en": "General graph; two specified vertices",
+        "ja": "一般グラフと指定された二頂点"
+      },
+      "model": {
+        "en": "Ask whether that vertex set forces some optimal coloring",
+        "ja": "その頂点集合がいずれかの最適彩色をforceするか"
+      },
+      "result": {
+        "en": "US-complete; values are NOT supplied",
+        "ja": "US完全。色の値は入力ではない"
+      },
+      "source": "P15",
+      "locator": "Prop. 2.8",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": null
+    },
+    {
+      "id": "COL-H3",
+      "family": "coloring",
+      "group": "fixed",
+      "domain": {
+        "en": "Connected graphs; each fixed k ≥ 2",
+        "ja": "連結グラフ・各固定定数k≥2"
+      },
+      "model": {
+        "en": "Does Fχ(G) ≤ k?",
+        "ja": "Fχ(G)≤kの判定"
+      },
+      "result": {
+        "en": "US-hard (many-one)",
+        "ja": "US困難（many-one帰着）"
+      },
+      "source": "P15",
+      "locator": "Th. 3.1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "fixed-k"
+    },
+    {
+      "id": "COL-H4",
+      "family": "coloring",
+      "group": "fixed",
+      "domain": {
+        "en": "χ(G) ≤ 3 AND Fχ(G) ≤ 3; proper 3-coloring supplied",
+        "ja": "χ(G)≤3かつFχ(G)≤3・適正3彩色が入力"
+      },
+      "model": {
+        "en": "Decide whether Fχ(G) ≤ 2",
+        "ja": "Fχ(G)≤2かの判定"
+      },
+      "result": {
+        "en": "coNP-hard under this promise",
+        "ja": "このpromise下でcoNP困難"
+      },
+      "source": "P15",
+      "locator": "Th. 4.1",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "k=2"
+    },
+    {
+      "id": "COL-A1",
+      "family": "coloring",
+      "group": "fixed",
+      "domain": {
+        "en": "Each fixed k; no planar/degree promise added",
+        "ja": "各固定定数k。平面性や次数条件を加えない"
+      },
+      "model": {
+        "en": "Fχ(G) ≤ k",
+        "ja": "Fχ(G)≤k"
+      },
+      "result": {
+        "en": "In P_dtt(US); not a many-one completeness statement",
+        "ja": "P_dtt(US)に所属。many-one完全性の主張ではない"
+      },
+      "source": "P15",
+      "locator": "Th. 8.2",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "fixed-k"
+    },
+    {
+      "id": "CLQ-H1",
+      "family": "clique-dom",
+      "group": "clique",
+      "domain": {
+        "en": "General graphs; each fixed k ≥ 0",
+        "ja": "一般グラフ・各固定定数k≥0"
+      },
+      "model": {
+        "en": "INCLUDE among maximum cliques; target selectable",
+        "ja": "最大クリークに対するINCLUDE・目標を選択"
+      },
+      "result": {
+        "en": "US-hard",
+        "ja": "US困難"
+      },
+      "source": "P15",
+      "locator": "Th. 7.5",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": "fixed-k"
+    },
+    {
+      "id": "CLQ-A1",
+      "family": "clique-dom",
+      "group": "clique",
+      "domain": {
+        "en": "Same input",
+        "ja": "同じ入力条件"
+      },
+      "model": {
+        "en": "Fω(G) ≤ k",
+        "ja": "Fω(G)≤k"
+      },
+      "result": {
+        "en": "In P_dtt(US)",
+        "ja": "P_dtt(US)に所属"
+      },
+      "source": "P15",
+      "locator": "Th. 8.2",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "fixed-k"
+    },
+    {
+      "id": "DOM-H1",
+      "family": "clique-dom",
+      "group": "domination",
+      "domain": {
+        "en": "General graphs; each fixed k ≥ 0",
+        "ja": "一般グラフ・各固定定数k≥0"
+      },
+      "model": {
+        "en": "INCLUDE among minimum dominating sets; target selectable",
+        "ja": "最小支配集合に対するINCLUDE・目標を選択"
+      },
+      "result": {
+        "en": "US-hard",
+        "ja": "US困難"
+      },
+      "source": "P15",
+      "locator": "Th. 7.5",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": "selectable",
+      "parameter": "fixed-k"
+    },
+    {
+      "id": "DOM-A1",
+      "family": "clique-dom",
+      "group": "domination",
+      "domain": {
+        "en": "Same input",
+        "ja": "同じ入力条件"
+      },
+      "model": {
+        "en": "Fγ(G) ≤ k",
+        "ja": "Fγ(G)≤k"
+      },
+      "result": {
+        "en": "In P_dtt(US)",
+        "ja": "P_dtt(US)に所属"
+      },
+      "source": "P15",
+      "locator": "Th. 8.2",
+      "evidence": "S",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": "fixed-k"
+    },
+    {
+      "id": "META-1",
+      "family": "transfer",
+      "group": "general",
+      "domain": {
+        "en": "Source NP problem with Σ₂^P-complete FCP; aligned parsimonious reduction",
+        "ja": "帰着元NP問題のFCPがΣ₂^P完全・座標整列したparsimonious帰着"
+      },
+      "model": {
+        "en": "FCP transfer; target certificates polynomially checkable",
+        "ja": "FCPの移送・帰着先の証明書は多項式時間判定可能"
+      },
+      "result": {
+        "en": "Transfers Σ₂^P-completeness under the formal hypotheses",
+        "ja": "正式な仮定の下でΣ₂^P完全性を移送"
+      },
+      "source": "P7",
+      "locator": "final abstract",
+      "evidence": "A",
+      "planar": null,
+      "bipartite": null,
+      "max_degree": null,
+      "regular_degree": null,
+      "direction": null,
+      "weights": null,
+      "target": null,
+      "parameter": null
+    }
+  ]
+}

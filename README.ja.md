@@ -1,7 +1,7 @@
 # Solution Uniquification
 ## 解の一意化：Forcing Set・Fewest Clues・Pre-assignment
 
-[English](README.md) · 初版 0.1 · 2026-11-07 · 継続更新するサーベイ
+[English](README.md) · 第0.2版 · 2026-11-07 · 継続更新するサーベイ
 
 **どれだけ少ない情報の指定や変更で、解をちょうど一つにできるか。**
 この問いを、異なる分野のモデルを比較しながら学ぶための資料です。学生が研究に入るための導入と、研究者が既知結果を比較するための一覧を用意します。
@@ -13,6 +13,7 @@
 | [モデル](MODELS.ja.md) | 解集合、部分指定、指定解と選択可能な解 | [Models](MODELS.md) |
 | [共通手法](METHODS.ja.md) | 差分集合、hitting set、一意性の検証 | [Methods](METHODS.md) |
 | [主要結果](RESULTS.ja.md) | モデルの適用範囲を明示した結果表 | [Results](RESULTS.md) |
+| [帰着元索引](REDUCTIONS.ja.md) | 平面・二部・次数制限付きの困難性、予算・保存性 | [Reduction sources](REDUCTIONS.md) |
 | [読む順序・演習](READING.ja.md) | 全6回の輪講案、演習と解答 | [Reading guide](READING.md) |
 | [研究上の問い](QUESTIONS.ja.md) | 文献の問い、考察課題、未調査項目 | [Questions](QUESTIONS.md) |
 | [出典](SOURCES.md) | 書誌情報、参照版、確認の深さ | 英日共通 |
@@ -43,7 +44,7 @@ python3 scripts/check_repository.py
 
 ## この版の位置づけ
 
-初版は主要な文献を選んだサーベイです。結果にはモデルと確認の深さを付けます。「未収録」は「未解決」を意味しません。最近の文献候補は、定理を確認する前に確定結果表へ混ぜません。未公開研究は含めません。
+第0.2版は、問題別・入力制限別の71項目と帰着元索引を備えた選択的サーベイです。結果にはモデルと確認の深さを付けます。「未収録」は「未解決」を意味しません。最近の文献候補は、定理を確認する前に確定結果表へ混ぜません。未公開研究は含めません。
 
 修正時は、該当する行、モデル、論文の版、定理、仮定を明記し、英日を同時に更新します。[BibTeX](BIBLIOGRAPHY.bib)も利用できます。
 
