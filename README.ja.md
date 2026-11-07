@@ -29,7 +29,7 @@
 
 中心は、指定数を制限して解を一意にする決定的な部分指定です。defining／forcing set、Fewest Clues Problem（FCP）、最適解のpre-assignmentを扱います。グラフ変更による一意化は隣接するモデルとして含めます。乱択isolationや最適解の一意性判定は関連事項とし、一般に同じ問題とは扱いません。
 
-研究の入口は、堀山・小林・小野・瀬戸・鈴木によるAAAI 2024論文[P1](SOURCES.md#p1)です。歴史的背景として、matchingのforcing set [P2](SOURCES.md#p2)、defining set [P3](SOURCES.md#p3)、FCP [P4](SOURCES.md#p4)を接続します。2004年を分野全体の起源とするものではありません。
+研究の入口は、堀山・小林・小野・脊戸・鈴木によるAAAI 2024論文[P1](SOURCES.md#p1)です。歴史的背景として、matchingのforcing set [P2](SOURCES.md#p2)、defining set [P3](SOURCES.md#p3)、FCP [P4](SOURCES.md#p4)を接続します。2004年を分野全体の起源とするものではありません。
 
 ## 例の再現
 
