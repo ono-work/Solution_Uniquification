@@ -1,0 +1,56 @@
+{
+  "graph_examples": [
+    {
+      "name": "K3",
+      "n": 3,
+      "tau": 2,
+      "number_of_minimum_covers": 3,
+      "include": 2,
+      "exclude": 1,
+      "mixed": 1
+    },
+    {
+      "name": "K5",
+      "n": 5,
+      "tau": 4,
+      "number_of_minimum_covers": 5,
+      "include": 4,
+      "exclude": 1,
+      "mixed": 1
+    },
+    {
+      "name": "C4",
+      "n": 4,
+      "tau": 2,
+      "number_of_minimum_covers": 2,
+      "include": 1,
+      "exclude": 1,
+      "mixed": 1
+    },
+    {
+      "name": "P3",
+      "n": 3,
+      "tau": 1,
+      "number_of_minimum_covers": 1,
+      "include": 0,
+      "exclude": 0,
+      "mixed": 0
+    }
+  ],
+  "fixed_target_costs": {
+    "000": 3,
+    "100": 1,
+    "010": 1,
+    "001": 1
+  },
+  "global_distinguishing_cost": 3,
+  "all_labelled_graphs_n_at_most_4_checked": 76,
+  "checks": [
+    "model cost relation for selectable targets",
+    "INCLUDE deletion and optimum-preservation equivalence",
+    "difference-set hitting equivalence",
+    "restricted-reoptimization counterexample",
+    "empty and singleton families",
+    "minimal versus minimum"
+  ]
+}
